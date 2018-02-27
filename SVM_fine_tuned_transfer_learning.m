@@ -10,7 +10,7 @@ load('cifar10_resnet152_y_validation1_Nov4.mat')
 
 y_test=double(Y_test1);
 y_validation=double(y_validation1);
-%{
+%
 intermediate_train=X_validation;
 intermediate_test=X_test;
 
@@ -48,7 +48,7 @@ disp('testing accuracy for flatten_2')
 %testing accuracy
 modelSVM = svmtrain(y_validation, x_validation_flatten_2, '-q -s 0 -t 3 -c 2.00000000');
 [predicted_label, testAcc, prob_estimates] = svmpredict(y_test, x_test_flatten_2, modelSVM); 
-%}
+%
 clearvars -except y_validation y_test
 
 
