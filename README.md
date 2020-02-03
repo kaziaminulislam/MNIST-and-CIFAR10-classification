@@ -1,7 +1,7 @@
 # MNIST-and-CIFAR10-classification
 MNIST data classification with feature visulization using keras-vis
 
-Keras DL frameworks
+Requirements: Keras DL framework.
 
 1. Classify MNIST and CIFAR10 Dataset using deep convolutional neural network and visulazie features from different layers. 
 Visulazied features are saved on "mnist_new_design_nov12"	and "output_cifar10" folders.
